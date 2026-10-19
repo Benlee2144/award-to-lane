@@ -1,0 +1,115 @@
+# Award-to-Lane configuration.
+# Paths are relative to this file. Secrets never go here: they are read from .env (see .env.example).
+
+paths:
+  database: data/award_to_lane.sqlite
+  pdf_cache: data/pdfs
+  output: output
+  logs: logs
+  lead_status: data/lead_status.csv   # rep-maintained lead statuses, merged into the database every run (README: Working the sheet)
+
+http:
+  # Be identifiable and polite: put YOUR site and e-mail here. The USDA portal accepts any identifiable agent,
+  # and OpenStreetMap's Nominatim (geocoding fallback) refuses placeholder agents outright.
+  user_agent: "AwardToLane/0.1 (+https://YOUR-SITE.example; contact: YOU@YOUR-DOMAIN.example)"
+  min_seconds_between_requests: 3
+  timeout_seconds: 60
+  max_retries: 3
+
+sources:
+  usda_pca:
+    enabled: true
+    search_url: https://portal.wbscm.usda.gov/ppp/search
+    doc_cat: Solicitation
+    backfill_days: 365        # first run: how far back to look for awards
+    lookback_days: 30         # later runs: re-query this many days of awards (catches late PCA postings)
+    include_international: false   # export awards (port-code destinations, no delivery window in the PDF)
+    include_blanket_awards: true   # fiscal-year blanket awards (plant known, destinations not listed)
+    international_pii_regex: '^\d\d-\dN'
+
+lanes:
+  pounds_per_truckload: 40000
+  road_distance_factor: 1.2        # straight-line miles x this = approximate road miles
+  default_case_weight_lb: 30       # used when the pack size cannot be read from the material text
+  # Some awards list a destination as a code instead of a city (seen: "O-JACK"). Map codes here once
+  # you learn what they mean; unmapped codes stay on the sheet flagged dest_state_missing.
+  destination_aliases: {}
+  #  O-JACK: "JACKSON, MS"
+  geocoder:
+    gazetteer_csv: data/us_places.csv
+    nominatim_fallback: true
+    nominatim_url: https://nominatim.openstreetmap.org/search
+    nominatim_min_seconds_between_requests: 1.1
+
+equipment:
+  # Rules are checked in order against the line item's material text, then the portal's commodity
+  # subcategory. First keyword hit wins; otherwise 'default' applies. Keep shelf-stable words first so
+  # "EGG NOODLE" and "MAC N CHEESE" do not become reefer loads.
+  default: dry van
+  rules:
+    - equipment: dry van
+      keywords: [CANNED, "CAN-", UHT, EVAP, DRIED, " DRY", DEHYD, PASTA, MACARONI, SPAGHETTI, NOODLE, FLOUR,
+                 RICE, CEREAL, OATS, GRITS, JUICE, PEANUT, SUNFLOWER, NUTS, WALNUT, ALMOND, RAISIN, PRUNE,
+                 TORTILLA, CRACKER, APPLESAUCE, "CORN-SOY", LENTIL, BEANS PINTO, BEANS DRY, SHELF]
+    - equipment: reefer
+      keywords: [FRZ, FROZEN, CHILLED, CHILL, FRESH, IQF, CHEESE, BUTTER, YOGURT, MILK, EGG, MEAT, BEEF, PORK,
+                 HAM, CHICKEN, TURKEY, BISON, LAMB, FISH, SHRIMP, POLLOCK, CATFISH, SALMON, PRODUCE]
+
+call_sheet:
+  new_window_days: 3          # a lead is NEW if first seen this run and posted within this many days
+  top_lanes_in_email: 5
+  max_window_unknown_age_days: 120   # awards with no parsable window stay on the sheet this long
+
+scoring:
+  # See score.py: score = weighted sum of value, truckload and urgency points, times penalties, scaled 0-100.
+  weights:
+    value: 1.0
+    truckloads: 1.0
+    urgency: 1.5
+  penalties:
+    blanket_award: 0.5
+    needs_review: 0.7
+    international: 0.6
+    window_unknown: 0.8
+    private_fleet: 0.8        # FMCSA plug-in confirmed the company runs its own trucks (plugins.fmcsa)
+
+plugins:
+  sam_gov:
+    # Free: public SAM.gov registration data (website + names/titles of the registration contacts; no e-mail or
+    # phone on a personal key). Runs before Apollo so Apollo only fills gaps. Key: SAM.gov profile > Account
+    # Details > "Public API Key". A personal key without a SAM.gov role gets 10 requests per day.
+    enabled: true
+    api_key_env: SAM_GOV_API_KEY
+    base_url: https://api.sam.gov/entity-information/v3/entities
+    max_companies_per_run: 10        # one request per company; results (and misses) are cached in SQLite
+    max_contacts_per_company: 4
+    miss_retry_days: 30              # a company with no match is looked up again after this many days
+    active_only: true                # registrationStatus=A; USDA contractors must be active to be awarded
+  apollo:
+    enabled: false
+    api_key_env: APOLLO_API_KEY
+    base_url: https://api.apollo.io/api/v1
+    titles: [logistics manager, transportation manager, supply chain manager, director of logistics,
+             shipping manager, traffic manager, distribution manager]
+    max_contacts_per_company: 5
+  fmcsa:
+    # Free, no key: does the awarded company run a private truck fleet? Looks each company up in FMCSA's Motor
+    # Carrier Census (data.transportation.gov dataset az4n-8mr2, refreshed daily) and shows the operation
+    # classification ("PRIVATE PROPERTY" = own trucks, "AUTHORIZED FOR HIRE" = carrier authority), the USDOT number
+    # and the power-unit count as a Fleet column. A confirmed private fleet gets the scoring.penalties.private_fleet
+    # multiplier. Name matches that are not exact (truncated award name, DBA, other state) show as "unverified".
+    enabled: true
+    base_url: https://data.transportation.gov/resource/az4n-8mr2.json
+    app_token_env: SOCRATA_APP_TOKEN   # optional Socrata app token (free, raises the anonymous throttling limit)
+    max_companies_per_run: 25          # one or two requests per company; results and misses are cached in SQLite
+    min_power_units: 1                 # fewer power units than this on the MCS-150 counts as no fleet
+    active_only: true                  # ignore inactive / pending USDOT registrations
+    refresh_days: 90                   # a cached match is looked up again after this many days
+    miss_retry_days: 30                # a company with no match is looked up again after this many days
+  pricing:
+    provider: stub            # stub | usda_market_news  (add your own in pricing/ and register it)
+    usda_market_news:
+      api_key_env: USDA_MARS_API_KEY
+      base_url: https://marsapi.ams.usda.gov/services/v1.2
+      report_name_contains: Truck Rate
+      cache_hours: 24

@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/award_to_lane.sqlite*
+data/pdfs/
+output/
+logs/
+.pytest_cache/
+.claude/
+.claude-flow/
+site/
+*.part

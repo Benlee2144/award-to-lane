@@ -1,0 +1,186 @@
+
+==================== PAGE 1/5  size=595x842 tables=0 ====================
+
+PCA : 12-3J14-26-B-0399-0002
+September 16, 2026 10:07:00
+PURCHASE AWARD DESCRIPTION
+The Department of Agriculture (USDA) purchased Frozen Blackberries as indicated below for distribution
+to the National School LunchP rogram (NSLP) and otherF ederal Food and NutritionA ssistance Programs for
+Fiscal Year 2026 under Section 32 authority.
+The purchase is the result ofo ffers received in response toS olicitation No. 2000011503 dated August 18,
+2026.
+The Frozen Blackberries werep urchased on a F.O.B destination basis. Deliveriesa re to be made between
+November 1, 2026, and May 31, 2027.
+The following material and quantities were not purchasedu nder this solicitation due toS ection 32
+pricing considerations:
+(111780) Blackberry IQF CTN-12/2.5lb: 5 truckloads/ 6,600 cs / 198,00 LBS (CA, FL, TX, WA).
+Further information can beo btained from: https://www.ams.usda.gov/selling-food.
+Number of Offers/Quotes(Vendor Responses) received: 3
+PURCHASE SUMMARY
+Material Total Qty UOM Price Range Total Dollars
+BLACKBERRY IQF CTN-12/2.5 LB 35,640.000 CS $43.5000 - $66.1100 $
+1,972,304.40
+TOTAL 35,640.000 CS $ 1,972,304.40
+PURCHASE DETAILS
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+AGRIFROST, LLC
+4324 E VINEYARD AVE
+OXNARD, CA 93036-1056
+12-3J14-26-C-1935 Castroville, CA
+4100034995
+BLACKBERRY IQF CTN-12/2.5 LB
+60 IMPERIAL, CA 1,320.000 CS $
+43.5000
+80 INDUSTRY, 1,320.000 CS $
+CA 43.5000
+100 SAN DIEGO, 1,320.000 CS $
+CA 43.5000
+Subtotal 3,960.000 CS
+Contract Total 3,960.000 CS $ 172,260.00
+
+==================== PAGE 2/5  size=595x842 tables=0 ====================
+
+Page 2 / 5
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+Contractor Total 3,960.000 CS $ 172,260.00
+INN FOODS, INC.
+310 WALKER ST
+WATSONVILLE, CA
+95076-4525
+12-3J14-26-C-1936 SALEM, OR
+4100034996
+BLACKBERRY IQF CTN-12/2.5 LB
+220 O-JACK 1,320.000 CS $
+66.1100
+Subtotal 1,320.000 CS
+Contract Total 1,320.000 CS $ 87,265.20
+Contractor Total 1,320.000 CS $ 87,265.20
+RJB PRODUCE, INC.
+5421 W DELAWARE AVE
+VISALIA, CA 93291-9136
+12-3J14-26-C-1934 Woodland, WA
+4100034994
+BLACKBERRY IQF CTN-12/2.5 LB
+120 WASHINGTON 1,320.000 CS $
+, DC 57.4600
+160 TAMPA, FL 1,320.000 CS $
+57.5700
+180 SAVANNAH, 1,320.000 CS $
+GA 57.9800
+200 VINELAND, 1,320.000 CS $
+NJ 58.1400
+240 PROVIDENCE, 1,320.000 CS $
+RI 57.9500
+280 SEATTLE, WA 1,320.000 CS $
+50.9000
+300 WEST 1,320.000 CS $
+MILWAUKEE, 55.0700
+WI
+320 COLORADO 330.000 CS $
+SPRING, CO 55.3100
+330 DENVER, CO 660.000 CS $
+
+==================== PAGE 3/5  size=595x842 tables=0 ====================
+
+Page 3 / 5
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+55.3100
+340 GREELEY, CO 330.000 CS $
+55.3100
+400 PHOENIX, AZ 660.000 CS $
+53.4000
+410 YUMA, AZ 660.000 CS $
+53.4000
+430 EVANSVILLE, 200.000 CS $
+IN 56.4000
+440 LEXINGTON, 920.000 CS $
+KY 56.4000
+450 MAYFIELD, 200.000 CS $
+KY 56.4000
+470 AUSTIN, TX 660.000 CS $
+57.1500
+480 PHARR, TX 330.000 CS $
+57.1500
+490 SAN 330.000 CS $
+ANTONIO, TX 57.1500
+510 RICHMOND, 440.000 CS $
+VA 57.5700
+520 SALEM, VA 440.000 CS $
+57.5700
+530 VERONA, VA 440.000 CS $
+57.5700
+550 CHATTANOO 270.000 CS $
+GA, TN 51.5700
+560 KINGSPORT, 250.000 CS $
+TN 51.5700
+570 NASHVILLE, 800.000 CS $
+TN 51.5700
+590 CLEVELAND, 330.000 CS $
+OH 57.0000
+600 GROVE CITY, 528.000 CS $
+OH 57.0000
+610 LOGAN, OH 462.000 CS $
+57.0000
+630 BLOOMINGTO 300.000 CS $
+N, IN 57.4200
+640 INDIANAPOLIS 670.000 CS $
+, IN 57.4200
+650 TERRE 350.000 CS $
+HAUTE, IN 57.4200
+
+==================== PAGE 4/5  size=595x842 tables=0 ====================
+
+Page 4 / 5
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+670 MYRTLE 440.000 CS $
+BEACH, SC 58.6300
+680 NO 880.000 CS $
+CHARLESTON, 58.6300
+SC
+700 LAFAYETTE, 440.000 CS $
+LA 56.7800
+710 NEW 880.000 CS $
+ORLEANS, LA 56.7800
+730 BRIDGETON, 550.000 CS $
+MO 56.2500
+740 COLUMBIA, 440.000 CS $
+MO 56.2500
+750 SIKESTON, 330.000 CS $
+MO 56.2500
+770 AUBURN, ME 660.000 CS $
+57.9500
+780 CONCORD, 660.000 CS $
+NH 57.9500
+800 BESSEMER, 747.000 CS $
+AL 56.9600
+810 HUNTSVILLE, 573.000 CS $
+AL 56.9600
+830 CHICAGO, IL 660.000 CS $
+55.7500
+840 GENEVA, IL 330.000 CS $
+55.7500
+850 URBANA, IL 330.000 CS $
+55.7500
+870 AUBURN, ME 660.000 CS $
+57.9500
+880 CONCORD, 660.000 CS $
+NH 57.9500
+900 CLARE, MI 350.000 CS $
+56.4000
+910 KENTWOOD, 382.000 CS $
+MI 56.4000
+920 TAYLOR, MI 588.000 CS $
+56.4000
+Subtotal 30,360.000 CS
+Contract Total 30,360.000 CS $ 1,712,779.20
+Contractor Total 30,360.000 CS $ 1,712,779.20
+
+==================== PAGE 5/5  size=595x842 tables=0 ====================
+
+Page 5 / 5
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item

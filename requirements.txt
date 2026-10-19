@@ -1,0 +1,6 @@
+pdfplumber>=0.11
+requests>=2.31
+PyYAML>=6.0
+python-dotenv>=1.0
+pytest>=8.0
+cryptography>=42.0

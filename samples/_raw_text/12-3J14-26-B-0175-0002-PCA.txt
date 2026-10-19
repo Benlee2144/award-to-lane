@@ -1,0 +1,282 @@
+
+==================== PAGE 1/4  size=595x842 tables=0 ====================
+
+PCA : 12-3J14-26-B-0175-0002
+April 17, 2026 12:05:00
+PURCHASE AWARD DESCRIPTION
+The Department of Agriculture (USDA) purchased Canned and Frozen Vegetables products as indicated below
+for distribution to the National School Lunch Program (NSLP) and other related domestic programs for
+Fiscal Year 2027.
+The purchase is the result of offers received in response to Solicitation No. 200001213 dated March 12,
+2026.
+The materials were purchase on a f.o.b destination basis. Deliveries are to be made between October 1,
+2026, and September 30, 2027.
+Further information can be obtained from the Commodity Procurement Staff, Agricultural Marketing Service,
+USDA, Room 2968-S, Stop 0239 Washington, DC 20250-0239, telephone (202) 720-4517 or the website at http:
+//www.ams.usda.gov/selling-food. Cumulative purchase data can be found at: http://www.ams.usda.
+gov/reports/purchase-summary-report.
+Number of Offers/Quotes(Vendor Responses) received: 10
+PURCHASE SUMMARY
+Material Minimum Value Maximum Quantity UOM
+BEANS GREEN CAN-24/300 $102,983.40 808,380.000 CS
+BEANS GREEN CAN-6/10 $16,279.20 456,000.000 CS
+BEANS GREEN FRZ CTN-12/2 LB $40,062.60 110,160.000 CS
+BEANS GREEN FRZ CTN-30 LB $30,280.80 95,040.000 CS
+CARROTS CAN-24/300 $78,116.40 165,240.000 CS
+CARROTS CAN-6/10 $51,673.92 49,248.000 CS
+CARROTS DICED FRZ CTN-12/2 LB $23,943.60 81,000.000 CS
+CARROTS DICED FRZ CTN-30 LB $21,938.40 19,800.000 CS
+CARROTS FRZ CTN-30 LB $50,635.20 496,320.000 CS
+CORN CREAM STYLE CAN-24/300 $25,515.00 129,600.000 CS
+CORN FRZ CTN-12/2.5 LB $33,264.00 145,200.000 CS
+CORN FRZ CTN-30 LB $27,508.80 332,640.000 CS
+CORN WHOLE KERNEL CAN-24/300 $74,572.20 963,900.000 CS
+CORN WHOLE KERNEL(LIQ) CAN-6/10 $44,724.48 160,512.000 CS
+MIXED VEGETABLES FRZ CTN-6/5LB $64,442.40 105,600.000 CS
+PEAS CAN-24/300 $59,745.60 192,780.000 CS
+PEAS CAN-6/10 $53,580.00 23,712.000 CS
+PEAS GREEN FRZ CTN-12/2.5 LB $32,643.60 85,800.000 CS
+PEAS GREEN FRZ CTN-30 LB $30,663.60 68,640.000 CS
+POTATOES WHT SLICES CAN-24/300 $73,378.80 550,800.000 CS
+TOMATO DICED CAN-24/300 $48,211.20 729,000.000 CS
+TOMATO DICED CAN-6/10 $550,093.92 66,576.000 CS
+VEG MIX CAN-24/300 $96,600.60 502,200.000 CS
+TOTAL $2,332,075.30 6,338,148.000 CS
+
+==================== PAGE 2/4  size=612x792 tables=3 ====================
+
+Burnette Foods Inc C o n t r a c t N u m b er: 4400002570
+P.O. Box 128
+Elk Rapids, MI 49629
+CLIN Material Code - Minimum Maximum Estimated Estimated Maximum Maximum
+Material Description State Pricing State QTY (CS) Value QTY (CS) Value
+Pricing
+1 100306 - GREEN $14.89 $18.45 24,300 $368,947.43 30,780 $567,891.00
+CAN-24/300
+2 100307 - BEANS $17.85 $25.47 373,920 $8,059,521.08 456,000 $11,614,320.00
+GREEN CAN-6/10
+3 100331 - POTATOES $15.34 $18.50 283,050 $4,665,203.79 339,660 $6,283,710.00
+WHT SLICES CAN-
+24/300
+Hirzel Canning Company C o n t r a c t N umber: 4400002574
+411 Lemonyne Rd
+Northwood, OH 43619-1626
+CLIN Material Code - Material Minimum Estimated Estimated Maximum Maximum Maximum
+Description State QTY (CS) Value State QTY (CS) Value
+Pricing Pricing
+1 100328 - TOMATO $14.86 118,260 $1,881,116.52 $18.89 142,560 $2,692,958.40
+DICED CAN-24/300
+2 100329 - TOMATO $21.14 2,736 $63,074.22 $27.06 3,648 $98,714.88
+DICED CAN-6/10
+Inn Foods C o n t r a c t N u m b e r : 4400002571
+310 Walker St
+Watsonville, CA 95076
+CLIN Material Description Minimum Estimated Estimated Maximum Maximum Maximum
+State QTY (CS) Value State QTY (CS) Value
+Pricing Pricing
+1 100351 - BEANS GREEN $22.94 75,240 $1,799,030.84 $46.38 95,040 $4,407,955.20
+FRZ CTN-30 LB
+2 100348 - CORN FRZ CTN- $20.84 277,200 $6,252,298.84 $33.33 332,640 $11,086,891.20
+30 LB
+3 111230 - MIXED $24.60 66,000 $1,809,125.07 $39.24 83,160 $3,263,198.40
+VEGETABLES FRZ CTN-
+6/5LB
+4 111052 - CARROTS $14.78 51,840 $824,843.06 $27.74 81,000 $2,246,940.00
+DICED FRZ CTN-12/2 LB
+5 110480 - CARROTS $16.62 15,840 $291,681.04 $31.05 19,800 $614,790.00
+DICED FRZ CTN-30 LB
+6 100352 - CARROTS FRZ $17.52 135,960 $2,879,015.50 $24.74 163,680 $4,049,443.20
+CTN-30 LB
+7 111054 - BEANS GREEN $24.73 85,860 $1,787,929.44 $42.06 110,160 $4,633,329.60
+FRZ CTN-12/2 LB
+8 111053 - CORN FRZ CTN- $25.20 145,200 $4,237,907.66 $32.16 174,240 $5,603,558.40
+12/2.5 LB
+9 110763 - PEAS GREEN $24.73 71,280 $2,060,140.55 $42.06 85,800 $3,608,748.00
+FRZ CTN-12/2.5 LB
+10 100350 - PEAS GREEN $23.23 55,440 $1,799,030.84 $41.58 68,640 $2,854,051.20
+FRZ CTN-30 LB
+
+--- table 1: 5 rows x 7 cols ---
+Burnette Foods Inc⏎P.O. Box 128⏎Elk Rapids, MI 49629 |  | C o n t r a c t N u m b er: 4400002570 |  |  |  | 
+CLIN | Material Code -⏎Material Description | Minimum⏎State Pricing | Maximum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎QTY (CS)
+1 | 100306 - GREEN⏎CAN-24/300 | $14.89 | $18.45 | 24,300 | $368,947.43 | 30,780
+2 | 100307 - BEANS⏎GREEN CAN-6/10 | $17.85 | $25.47 | 373,920 | $8,059,521.08 | 456,000
+3 | 100331 - POTATOES⏎WHT SLICES CAN-⏎24/300 | $15.34 | $18.50 | 283,050 | $4,665,203.79 | 339,660
+
+--- table 2: 4 rows x 8 cols ---
+Hirzel Canning Company⏎411 Lemonyne Rd⏎Northwood, OH 43619-1626 |  | C o n t r a c t N umber: 4400002574 |  |  |  |  | 
+CLIN | Material Code - Material⏎Description | Minimum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS) | Maximum⏎Value
+1 | 100328 - TOMATO⏎DICED CAN-24/300 | $14.86 | 118,260 | $1,881,116.52 | $18.89 | 142,560 | $2,692,958.40
+2 | 100329 - TOMATO⏎DICED CAN-6/10 | $21.14 | 2,736 | $63,074.22 | $27.06 | 3,648 | $98,714.88
+
+--- table 3: 12 rows x 8 cols ---
+Inn Foods⏎310 Walker St⏎Watsonville, CA 95076 |  | C o n t r a c t N u m b e r : 4400002571 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS) | Maximum⏎Value
+1 | 100351 - BEANS GREEN⏎FRZ CTN-30 LB | $22.94 | 75,240 | $1,799,030.84 | $46.38 | 95,040 | $4,407,955.20
+2 | 100348 - CORN FRZ CTN-⏎30 LB | $20.84 | 277,200 | $6,252,298.84 | $33.33 | 332,640 | $11,086,891.20
+3 | 111230 - MIXED⏎VEGETABLES FRZ CTN-⏎6/5LB | $24.60 | 66,000 | $1,809,125.07 | $39.24 | 83,160 | $3,263,198.40
+4 | 111052 - CARROTS⏎DICED FRZ CTN-12/2 LB | $14.78 | 51,840 | $824,843.06 | $27.74 | 81,000 | $2,246,940.00
+5 | 110480 - CARROTS⏎DICED FRZ CTN-30 LB | $16.62 | 15,840 | $291,681.04 | $31.05 | 19,800 | $614,790.00
+6 | 100352 - CARROTS FRZ⏎CTN-30 LB | $17.52 | 135,960 | $2,879,015.50 | $24.74 | 163,680 | $4,049,443.20
+7 | 111054 - BEANS GREEN⏎FRZ CTN-12/2 LB | $24.73 | 85,860 | $1,787,929.44 | $42.06 | 110,160 | $4,633,329.60
+8 | 111053 - CORN FRZ CTN-⏎12/2.5 LB | $25.20 | 145,200 | $4,237,907.66 | $32.16 | 174,240 | $5,603,558.40
+9 | 110763 - PEAS GREEN⏎FRZ CTN-12/2.5 LB | $24.73 | 71,280 | $2,060,140.55 | $42.06 | 85,800 | $3,608,748.00
+10 | 100350 - PEAS GREEN⏎FRZ CTN-30 LB | $23.23 | 55,440 | $1,799,030.84 | $41.58 | 68,640 | $2,854,051.20
+
+==================== PAGE 3/4  size=612x792 tables=3 ====================
+
+Lakeside Foods C o n t r a c t N u m b e r : 4 400002585
+PO BOX 1327
+Manitowoc, WI 54221
+CLIN Material Description Minimum Maximum Estimated Estimated Maximum Maximum
+State Price State QTY (CS) Value QTY (CS) value
+Price
+1 100306 - BEANS GREEN $15.07 $19.75 162,000 $2,589,086.60 205,740 $4,063,365.00
+CAN-24/300
+2 100311 - CORN WHOLE $16.49 $21.45 162,180 $2,888,404.71 194,310 $4,167,949.50
+KERNEL CAN-24/300
+3 100313 - CORN WHOLE $22.73 $29.60 103,968 $2,703,683.36 128,592 $3,806,323.20
+KERNEL(LIQ) CAN-6/10
+4 100308 - CARROTS CAN- $16.02 $20.70 21,060 $345,319.20 25,920 $536,544.00
+24/300
+5 100309 - CARROTS CAN- $28.40 $36.72 12,768 $384,842.90 17,328 $636,284.16
+6/10
+6 111230 - MIXED $24.22 $30.03 17,160 $437,920.31 22,440 $673,873.20
+VEGETABLES FRZ CTN-
+6/5LB
+7 100320 -VEG MIX CAN- $17.78 $21.64 68,040 $1,323,297.26 81,000 $1,752,840.00
+24/300
+8 100315 - PEAS CAN-6/10 $28.85 $35.72 7,296 $237,287.63 9,120 $325,766.40
+9 100314 - PEAS CAN- $18.74 $22.60 87,480 $1,760,219.45 105,300 $2,379,780.00
+24/300
+McCall Farms C o n t r a c t Number: 4400002572
+6615 S Irby St
+Effingham, SC 29541
+CLIN Material Description Minimum Estimated Estimated Maximum Maximum Maximum
+State QTY (CS) Value State QTY (CS) Value
+Pricing Pricing
+1 100306 - BEANS $17.84 424,440 $8,407,319.60 $23.08 468,180 $10,805,594.40
+GREEN CAN-24/300
+2 100320 - VEG MIX $21.68 296,460 $6,903,855.20 $26.20 356,400 $9,337,680.00
+CAN-24/300
+Packers Canning Co. Inc. C o n t r a c t N umber: 4400002526
+PO Box 907
+Lawton, MI 49065
+CLIN Material Description Minimum Maximum Estimated Estimated Maximum Maximum
+State Price State Price QTY (CS) Value QTY (CS) value
+1 100308 - CARROTS CAN-24/300 $16.59 $19.18 97,200 $1,633,934.15 116,640 $2,237,155.20
+2 100309 - CARROTS CAN-6/10 $28.26 $32.86 22,800 $699,883.82 31,920 $1,048,891.20
+3 100331 - POTATOES WHT $16.33 $19.08 166,770 $2,959,518.03 200,430 $3,824,204.40
+SLICES CAN-24/300
+
+--- table 1: 11 rows x 8 cols ---
+Lakeside Foods⏎PO BOX 1327⏎Manitowoc, WI 54221 |  | C o n t r a c t N u m b e r : 4 400002585 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State Price | Maximum⏎State⏎Price | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎QTY (CS) | Maximum⏎value
+1 | 100306 - BEANS GREEN⏎CAN-24/300 | $15.07 | $19.75 | 162,000 | $2,589,086.60 | 205,740 | $4,063,365.00
+2 | 100311 - CORN WHOLE⏎KERNEL CAN-24/300 | $16.49 | $21.45 | 162,180 | $2,888,404.71 | 194,310 | $4,167,949.50
+3 | 100313 - CORN WHOLE⏎KERNEL(LIQ) CAN-6/10 | $22.73 | $29.60 | 103,968 | $2,703,683.36 | 128,592 | $3,806,323.20
+4 | 100308 - CARROTS CAN-⏎24/300 | $16.02 | $20.70 | 21,060 | $345,319.20 | 25,920 | $536,544.00
+5 | 100309 - CARROTS CAN-⏎6/10 | $28.40 | $36.72 | 12,768 | $384,842.90 | 17,328 | $636,284.16
+6 | 111230 - MIXED⏎VEGETABLES FRZ CTN-⏎6/5LB | $24.22 | $30.03 | 17,160 | $437,920.31 | 22,440 | $673,873.20
+7 | 100320 -VEG MIX CAN-⏎24/300 | $17.78 | $21.64 | 68,040 | $1,323,297.26 | 81,000 | $1,752,840.00
+8 | 100315 - PEAS CAN-6/10 | $28.85 | $35.72 | 7,296 | $237,287.63 | 9,120 | $325,766.40
+9 | 100314 - PEAS CAN-⏎24/300 | $18.74 | $22.60 | 87,480 | $1,760,219.45 | 105,300 | $2,379,780.00
+
+--- table 2: 4 rows x 8 cols ---
+McCall Farms⏎6615 S Irby St⏎Effingham, SC 29541 |  | C o n t r a c t Number: 4400002572 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS) | Maximum⏎Value
+1 | 100306 - BEANS⏎GREEN CAN-24/300 | $17.84 | 424,440 | $8,407,319.60 | $23.08 | 468,180 | $10,805,594.40
+2 | 100320 - VEG MIX⏎CAN-24/300 | $21.68 | 296,460 | $6,903,855.20 | $26.20 | 356,400 | $9,337,680.00
+
+--- table 3: 5 rows x 8 cols ---
+Packers Canning Co. Inc.⏎PO Box 907⏎Lawton, MI 49065 |  | C o n t r a c t N umber: 4400002526 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State Price | Maximum⏎State Price | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎QTY (CS) | Maximum⏎value
+1 | 100308 - CARROTS CAN-24/300 | $16.59 | $19.18 | 97,200 | $1,633,934.15 | 116,640 | $2,237,155.20
+2 | 100309 - CARROTS CAN-6/10 | $28.26 | $32.86 | 22,800 | $699,883.82 | 31,920 | $1,048,891.20
+3 | 100331 - POTATOES WHT⏎SLICES CAN-24/300 | $16.33 | $19.08 | 166,770 | $2,959,518.03 | 200,430 | $3,824,204.40
+
+==================== PAGE 4/4  size=612x792 tables=4 ====================
+
+Red Gold Inc. Contract Number: 4400002573
+PO Box 83
+Elwood IN 46036
+CLIN Material Description Minimum State Estimated Estimated Maximum Maximum Maximum
+Pricing QTY (CS) Value State QTY (CS) Value
+Pricing
+1 100-328 - TOMATO $14.90 489,240 $8,148,118.56 $18.42 586,440 $10,802,224.80
+DICED CAN-24/300
+2 100329 - TOMATO $19.79 34,656 $777,283.64 $25.56 41,040 $1,048,982.40
+DICED CAN-6/10
+S.E.W. Friel, LLC C o n t r a c t N u m ber: 4400002577
+P.O. BOX 10
+Queenstown, MD 21658
+CLIN Material Description Minimum Estimated Estimate Maximum Maximum Maximum Value
+State QTY (CS) Estimated State QTY (CS)
+Pricing Value Pricing
+1 100311 - CORN WHOLE $15.75 601,290 $9,800,986.30 $19.00 722,160 $13,721,040.00
+KERNEL CAN-24/300
+2 100310 - CORN CREAM $15.75 105,300 $1,789,868.23 $19.26 129,600 $2,496,096.00
+STYLE CAN-24/300
+Seneca Foods C o n t r a c t N u m b e r: 4400002584
+350 Willowbrook Office Park
+Fairport, NY 14450
+CLIN Material Description Minimum Maximum Estimated Estimated Maximum Maximum
+State Price State QTY (CS) Value QTY (CS) value
+Price
+1 100306 - BEANS GREEN CAN- $15.77 $19.23 81,000 $1,347,715.28 103,680 $1,993,766.40
+24/300
+2 100251 - BEANS GREEN FRZ $20.74 $25.45 7,920 $182,833.18 10,560 $268,752.00
+CTN-30 LB
+3 100311 - CORN WHOLE $16.50 $19.96 39,780 $693,212.87 47,430 $946,702.80
+KERNEL CAN-24/300
+4 100313 - CORN WHOLE $26.31 $32.43 25,536 $719,315.68 31,920 $1,035,165.60
+KERNEL(LIQ) CAN-6/10
+5 100308 - CARROTS CAN- $15.61 $19.07 19,440 $312,344.29 22,680 $432,507.60
+24/300
+6 10035 - CARROTS FRZ CTN-30 $19.12 $23.83 6,600 $134,645.40 7,920 $188,733.60
+LB
+7 100320 - VEG MIX CAN-24/300 $20.17 $23.76 53,460 $1,150,283.59 64,800 $1,539,648.00
+8 100331 - POTATOES WHT $16.29 $19.88 9,180 $152,518.20 10,710 $212,914.80
+SLICES CAN-24/300
+9 100315 - PEAS CAN-6/10 $29.90 $36.02 11,856 $380,351.56 14,592 $525,603.84
+10 100314 - PEAS CAN-24/300 $18.14 $21.73 72,900 $1,391,272.44 87,480 $1,900,940.40
+The Neil Jones Food Contract Number: 4400002578
+Company
+1701 W 16TH St
+Vancouver, WA 98660
+CLIN Material Case Minimum Estimated Estimated Maximum Maximum Maximum
+Description Quantity State QTY (CS) Value State QTY (CS) Value
+(TL) Pricing Pricing
+1 100329 - TOMATO $912.00 $19.48 18,240 $377,737.76 $30.98 21,888 $678,090.24
+DICED CAN-6/10
+
+--- table 1: 4 rows x 7 cols ---
+Red Gold Inc.⏎PO Box 83⏎Elwood IN 46036 |  | Contract Number: 4400002573 |  |  |  | 
+CLIN | Material Description | Minimum State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS)
+1 | 100-328 - TOMATO⏎DICED CAN-24/300 | $14.90 | 489,240 | $8,148,118.56 | $18.42 | 586,440
+2 | 100329 - TOMATO⏎DICED CAN-6/10 | $19.79 | 34,656 | $777,283.64 | $25.56 | 41,040
+
+--- table 2: 4 rows x 8 cols ---
+S.E.W. Friel, LLC⏎P.O. BOX 10⏎Queenstown, MD 21658 |  | C o n t r a c t N u m ber: 4400002577 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimate⏎Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS) | Maximum Value
+1 | 100311 - CORN WHOLE⏎KERNEL CAN-24/300 | $15.75 | 601,290 | $9,800,986.30 | $19.00 | 722,160 | $13,721,040.00
+2 | 100310 - CORN CREAM⏎STYLE CAN-24/300 | $15.75 | 105,300 | $1,789,868.23 | $19.26 | 129,600 | $2,496,096.00
+
+--- table 3: 12 rows x 8 cols ---
+Seneca Foods⏎350 Willowbrook Office Park⏎Fairport, NY 14450 |  | C o n t r a c t N u m b e r: 4400002584 |  |  |  |  | 
+CLIN | Material Description | Minimum⏎State Price | Maximum⏎State⏎Price | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎QTY (CS) | Maximum⏎value
+1 | 100306 - BEANS GREEN CAN-⏎24/300 | $15.77 | $19.23 | 81,000 | $1,347,715.28 | 103,680 | $1,993,766.40
+2 | 100251 - BEANS GREEN FRZ⏎CTN-30 LB | $20.74 | $25.45 | 7,920 | $182,833.18 | 10,560 | $268,752.00
+3 | 100311 - CORN WHOLE⏎KERNEL CAN-24/300 | $16.50 | $19.96 | 39,780 | $693,212.87 | 47,430 | $946,702.80
+4 | 100313 - CORN WHOLE⏎KERNEL(LIQ) CAN-6/10 | $26.31 | $32.43 | 25,536 | $719,315.68 | 31,920 | $1,035,165.60
+5 | 100308 - CARROTS CAN-⏎24/300 | $15.61 | $19.07 | 19,440 | $312,344.29 | 22,680 | $432,507.60
+6 | 10035 - CARROTS FRZ CTN-30⏎LB | $19.12 | $23.83 | 6,600 | $134,645.40 | 7,920 | $188,733.60
+7 | 100320 - VEG MIX CAN-24/300 | $20.17 | $23.76 | 53,460 | $1,150,283.59 | 64,800 | $1,539,648.00
+8 | 100331 - POTATOES WHT⏎SLICES CAN-24/300 | $16.29 | $19.88 | 9,180 | $152,518.20 | 10,710 | $212,914.80
+9 | 100315 - PEAS CAN-6/10 | $29.90 | $36.02 | 11,856 | $380,351.56 | 14,592 | $525,603.84
+10 | 100314 - PEAS CAN-24/300 | $18.14 | $21.73 | 72,900 | $1,391,272.44 | 87,480 | $1,900,940.40
+
+--- table 4: 3 rows x 9 cols ---
+The Neil Jones Food⏎Company⏎1701 W 16TH St⏎Vancouver, WA 98660 |  | Contract Number: 4400002578 |  |  |  |  |  | 
+CLIN | Material⏎Description | Case⏎Quantity⏎(TL) | Minimum⏎State⏎Pricing | Estimated⏎QTY (CS) | Estimated⏎Value | Maximum⏎State⏎Pricing | Maximum⏎QTY (CS) | Maximum⏎Value
+1 | 100329 - TOMATO⏎DICED CAN-6/10 | $912.00 | $19.48 | 18,240 | $377,737.76 | $30.98 | 21,888 | $678,090.24

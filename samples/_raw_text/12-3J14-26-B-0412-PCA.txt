@@ -1,0 +1,73 @@
+
+==================== PAGE 1/2  size=595x842 tables=0 ====================
+
+PCA : 12-3J14-26-B-0412
+September 22, 2026 13:00:00
+PURCHASE AWARD DESCRIPTION
+Buttery Spread and Butter PCA,1 2-3J14-26-B-0412 (WBSCM Number 2000011519)
+The USDA/Agricultural Marketing Service/Commodity ProcurementP rogram (CPP) hereby announcesth e award
+of solicitation 12-3J14-26-B-0412 Number 2000011519. The following commodities were purchased ins upport
+of Child Nutrition and other related Domestic Food Distribution Programs.D eliveries are to be made from
+October 15, 2026, through December 31, 2026.
+The Contracting Officer will not consider any additional orf urther offers under solicitation 12-3J14-26-
+B-0412 (WBSCM Number 2000011519). CPP extends our appreciation to all bidders fo rshowing an interest in
+supplying agriculturalc ommodities for USDA/Domestic Programs.
+Further information can beo btained from the Commodity Procurement Program,A gricultural Marketing
+Service, USDA, South Building, Washington, DC 20250, telephone (202)720 4517 or the website at http:
+//www.ams.usda.gov/selling-food.
+Number of Offers/Quotes(Vendor Responses) received: 2
+PURCHASE SUMMARY
+Material Total Qty UOM Price Range Total Dollars
+BUTTER PRINT SALTED CTN-36/1 LB 123,120.000 LB $1.9350 - $2.0025 $
+242,136.00
+BUTTERY SPREAD LIGHT TUBS-12/15 74,520.000 LB $2.4800 - $2.4800 $
+OZ 184,809.60
+TOTAL 197,640.000 LB $ 426,945.60
+PURCHASE DETAILS
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+CONAGRA BRANDS, INC.
+222 MERCHANDISE MART
+PLZ STE 1300
+CHICAGO, IL 60654-1010
+12-3J14-26-C-2001 INDIANAPOLIS, IN
+4100035061
+BUTTERY SPREAD LIGHT TUBS-12/15 OZ
+40 Henderson, 18,630.000 LB $
+CO 2.4800
+60 Syracuse, NY 18,630.000 LB $
+2.4800
+70 Syracuse, NY 18,630.000 LB $
+2.4800
+80 Syracuse, NY 18,630.000 LB $
+2.4800
+Subtotal 74,520.000 LB
+Contract Total 74,520.000 LB $ 184,809.60
+Contractor Total 74,520.000 LB $ 184,809.60
+
+==================== PAGE 2/2  size=595x842 tables=0 ====================
+
+Page 2 / 2
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+DARIGOLD INC
+PO BOX 80627
+SEATTLE, WA 98108
+12-3J14-26-C-2002 Caldwell, ID
+4100035062
+BUTTER PRINT SALTED CTN-36/1 LB
+120 Henderson, 20,520.000 LB $
+CO 1.9350
+130 Henderson, 20,520.000 LB $
+CO 1.9625
+140 Henderson, 20,520.000 LB $
+CO 2.0025
+160 Syracuse, NY 20,520.000 LB $
+1.9350
+170 Syracuse, NY 20,520.000 LB $
+1.9625
+180 Syracuse, NY 20,520.000 LB $
+2.0025
+Subtotal 123,120.000 LB
+Contract Total 123,120.000 LB $ 242,136.00
+Contractor Total 123,120.000 LB $ 242,136.00

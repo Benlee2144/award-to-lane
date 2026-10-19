@@ -1,0 +1,131 @@
+
+==================== PAGE 1/4  size=595x842 tables=0 ====================
+
+PCA : 12-1NFP-26-B-0022-0001
+October 08, 2026 16:00:00
+PURCHASE AWARD DESCRIPTION
+The following commodity purchases for export distribution were announcedt oday. The commodities were
+purchased under Solicitation1 2-1NFP-26-B-0022-0001 (2000011541) for shipment during the period(s)
+indicated in the solicitation.T he products listed below aref or the FAS McGovern-Dole Food for
+Education program.
+We would like to extend our appreciation to all bidders fo rshowing an interest in thisp rogram.
+Questions should be addressedto the contracting officer, Melvin Smith, at melvin.smith@usda.gov
+Number of Offers/Quotes(Vendor Responses) received: 13
+PURCHASE SUMMARY
+Material Total Qty UOM Price Range Total Dollars
+BEANS, PINTO BAG-50 KG 500.000 MT $1005.73 - $1242.21 $
+604,551.40
+CORN-SOY BLEND PLUS BAG-HP-25 60.000 MT $1563.04 - $1563.04 $
+KG 93,782.40
+OIL, VEGETABLE BOTTLE, PLS-6/4L 50.020 MT $2152.88 - $2152.88 $
+670-719 107,687.26
+OIL, VEGETABLE CAN-6/4 L 120.013 MT $2251.31 - $2923.33 $
+290,349.10
+RICE, 5/20 LG, W-MLD, FORT BAG-50 1,410.000 MT $667.18 - $718.99 $
+KG 969,219.30
+TOTAL 2,140.033 MT $ 2,065,589.46
+PURCHASE DETAILS
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+GRAIN CRAFT CORN, LLC
+201 W Main St Ste 203
+Chattanooga, TN
+37408-1173
+Business Types : Large
+12-1NTP-27-C-0004 Crete, NE
+4210007675
+CORN-SOY BLEND PLUS BAG-HP-25K G
+160 BHOU 60.000 MT $ 1,563.04
+Subtotal 60.000 MT
+Contract Total 60.000 MT $ 93,782.40
+Contractor Total 60.000 MT $ 93,782.40
+HEARTLAND GOODWILL
+ENTERPRISES
+8200 6TH ST SW
+CEDAR RAPIDS, IA
+52404-7029
+Business Types : Large, AbilityOne
+
+==================== PAGE 2/4  size=595x842 tables=0 ====================
+
+Page 2 / 4
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+12-1NTP-27-C-0006 CORALVILLE, IA
+4210007677
+OIL, VEGETABLE CAN-6/4 L
+70 BCHI 30.003 MT $ 2,923.33
+Subtotal 30.003 MT
+Contract Total 30.003 MT $ 87,709.36
+Contractor Total 30.003 MT $ 87,709.36
+INCOBRASA INDUSTRIES
+LTD
+P.O. BOX 98
+GILMAN, IL 60938-6078
+Business Types : Small
+12-1NTP-27-C-0005 GILMAN, IL
+4210007676
+OIL, VEGETABLE BOTTLE, PLS-6/4L 670-719
+100 BCHI 50.020 MT $ 2,152.88
+Subtotal 50.020 MT
+Contract Total 50.020 MT $ 107,687.26
+Contractor Total 50.020 MT $ 107,687.26
+NEW COAST TRADING,
+(NCT) LLC
+110 Via Villagio
+Hypoluxo, FL 33462
+Business Types : Small, 8(a)
+12-1NTP-27-C-0002 PETERSBURG, ND
+4210007673
+BEANS, PINTO BAG-50 KG
+20 G-HOUS-LSI 430.000 MT $ 1,242.21
+Subtotal 430.000 MT
+Contract Total 430.000 MT $ 534,150.30
+Contractor Total 430.000 MT $ 534,150.30
+RUSSELL E WOMACK INC
+
+==================== PAGE 3/4  size=595x842 tables=0 ====================
+
+Page 3 / 4
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+PO Box 3967
+Lubbock, TX 79452
+Business Types : Small
+12-1NTP-27-C-0001 LUBBOCK, TX
+4210007672
+BEANS, PINTO BAG-50 KG
+20 BHOU 70.000 MT $ 1,005.73
+Subtotal 70.000 MT
+Contract Total 70.000 MT $ 70,401.10
+Contractor Total 70.000 MT $ 70,401.10
+STRATAS FOODS LLC
+7000 Goodlett Farms Pkwy
+Ste 400
+Cordova, TN 38016-4916
+Business Types : Large
+12-1NTP-27-C-0007 HOUSTON, TX
+4210007678
+OIL, VEGETABLE CAN-6/4 L
+70 RHOU 90.010 MT $ 2,251.31
+Subtotal 90.010 MT
+Contract Total 90.010 MT $ 202,639.74
+Contractor Total 90.010 MT $ 202,639.74
+SUPREME RICE, LLC
+530 W MILL ST
+CROWLEY, LA 70526
+Business Types : Small
+12-1NTP-27-C-0003 CROWLEY, LA
+4210007674
+RICE, 5/20 LG, W-MLD, FORT BAG-50 KG
+120 RCRO 860.000 MT $ 667.18
+120 BHOU 550.000 MT $ 718.99
+Subtotal 1,410.000 MT
+
+==================== PAGE 4/4  size=595x842 tables=0 ====================
+
+Page 4 / 4
+Contractor/ Material Plant Bid Inv. Destination Quantity UOM Price
+Contract Number Location Item
+Contract Total 1,410.000 MT $ 969,219.30
+Contractor Total 1,410.000 MT $ 969,219.30
