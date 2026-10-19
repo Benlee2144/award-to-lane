@@ -13,11 +13,16 @@ rewrites the file (one row per lead), so the file is a complete, readable record
 
 Statuses survive across days because the table and file outlive the run: ``attach`` looks each lead up by key on
 every run until the lead drops off the sheet when its delivery window closes.
+
+The published site (GitHub Pages, .github/workflows/daily.yml) is built on GitHub's runners from the committed
+file, so ``run_daily.py status ... --push`` commits and pushes ``data/lead_status.csv`` after recording a status;
+the workflow runs on that push and republishes the sheet with the new statuses.
 """
 from __future__ import annotations
 
 import csv
 import logging
+import subprocess
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -214,8 +219,35 @@ def format_rows(rows: list[dict], today: date | None = None) -> str:
     return "\n".join(lines)
 
 
+def push_status_file(csv_path: Path, message: str, out=print) -> bool:
+    """Commit just the status file and push it, so the GitHub Actions run republishes the sheet with it.
+    Returns True when the remote has the current file (also when there was nothing new to commit)."""
+    def git(*args: str) -> subprocess.CompletedProcess:
+        return subprocess.run(["git", "-C", str(csv_path.parent), *args], capture_output=True, text=True)
+    if git("rev-parse", "--show-toplevel").returncode != 0:
+        out(f"not a git checkout: commit and push {csv_path.name} yourself for the site to pick it up")
+        return False
+    git("add", "--", str(csv_path))
+    if git("diff", "--cached", "--quiet", "--", str(csv_path)).returncode == 0 and git("diff", "--quiet", "--", str(csv_path)).returncode == 0:
+        out(f"{csv_path.name} already committed")
+    else:
+        commit = git("commit", "-q", "-m", message, "--", str(csv_path))
+        if commit.returncode != 0:
+            err = (commit.stderr or commit.stdout).strip()
+            if any(w in err for w in ("who you are", "empty ident", "useConfigOnly", "no email was given", "no name was given")):
+                err += "\n  fix once: git config user.name \"Your Name\" && git config user.email you@example.com"
+            out(f"git commit failed:\n  {err}")
+            return False
+    push = git("push", "-q")
+    if push.returncode != 0:
+        out(f"git push failed: {push.stderr.strip()[-400:]}")
+        return False
+    out(f"pushed {csv_path.name}; the site republishes in a few minutes (Actions tab of the repository)")
+    return True
+
+
 def status_command(settings, args, out=print) -> int:
-    """argparse handler: no key -> list; key + contract -> show; key + contract + status -> set."""
+    """argparse handler: no key -> list; key + contract -> show; key + contract + status -> set (+ --push)."""
     db = Database(settings.path("paths.database", "data/award_to_lane.sqlite"))
     csv_path = settings.path("paths.lead_status", "data/lead_status.csv")
     try:
@@ -231,6 +263,9 @@ def status_command(settings, args, out=print) -> int:
             if r["note"]:
                 out(f"  note: {r['note']}")
             out(f"  saved to the database and {csv_path.name}; the next run reflects it")
+            if getattr(args, "push", False):
+                label = f"{r['award_key']} {r['contract_no'] or '-'} -> {r['status']}"
+                return 0 if push_status_file(csv_path, f"lead status: {label}", out) else 1
             return 0
         out(format_rows(list_statuses(db, csv_path, args.award_key, args.contract_no)))
         return 0

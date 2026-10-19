@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "30 11 * * 1-5"      # every weekday at 11:30 UTC (06:30 Central daylight time)
   workflow_dispatch:              # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - data/lead_status.csv      # a rep pushed statuses (run_daily.py status ... --push): republish the sheet with them
 
 permissions:
   contents: read

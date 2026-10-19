@@ -152,6 +152,17 @@ award_key,contract_no,status,note,rep,updated_at
 12-3J14-26-B-0433-0001,12-3J14-26-C-0007,skip,private fleet,,
 ```
 
+**Getting statuses onto the published site.** The GitHub Actions workflow (`.github/workflows/daily.yml`)
+rebuilds and publishes the sheet on GitHub's own runners, so it only sees statuses that are committed.
+Add `--push` to a `status` command and it commits `data/lead_status.csv` (that file alone) and pushes it;
+the workflow runs on that push and the site shows the new status a few minutes later. Hand edits work
+the same way: commit and push the file. Every weekday morning's scheduled run merges the committed file
+too, so nothing is lost if you forget.
+
+```bash
+python run_daily.py status 12-3J14-26-B-0410 12-3J14-26-C-0001 booked --note "PO 4471" --push
+```
+
 `award_key` and `status` are required; `contract_no`, `note` and `rep` may be blank; `updated_at` is
 an ISO date or date-time and may be blank. Status words are case-insensitive (`skipped` is accepted
 for `skip`). The file is read at the start of every run and merged into the `lead_status` table in

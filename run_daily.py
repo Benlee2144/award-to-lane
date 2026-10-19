@@ -7,6 +7,7 @@
     python run_daily.py --date 2026-10-19 --skip-discover   # rebuild outputs offline for a date
     python run_daily.py status                              # list lead statuses recorded by reps
     python run_daily.py status 12-3J14-26-B-0410 12-3J14-26-C-0001 quoted --note "sent 4 lanes" --rep pat
+    python run_daily.py status 12-3J14-26-B-0410 12-3J14-26-C-0001 booked --push   # ...and republish the site
 
 Exit code is 0 even when individual PDFs fail; failures are logged and listed in the terminal summary.
 """
@@ -42,6 +43,7 @@ def main(argv: list[str] | None = None) -> int:
     st.add_argument("status", nargs="?", choices=STATUSES, help="new (un-skip), contacted, quoted, booked, lost or skip")
     st.add_argument("--note", help="free text shown on hover on the sheet (omit to keep the previous note, '' to clear)")
     st.add_argument("--rep", help="who recorded it (default: your login name)")
+    st.add_argument("--push", action="store_true", help="also commit and push data/lead_status.csv so the published site updates")
     args = ap.parse_args(argv)
     settings = Settings.load(args.config)
     if args.command == "status":

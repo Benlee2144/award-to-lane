@@ -257,3 +257,78 @@ def test_cli_file_edit_then_cli_then_file(tmp_path, capsys):
     db = Database(tmp_path / "status.sqlite")
     assert lead_status.merge_csv(db, path) == 1 and db.lead_status_get(*KEY)["status"] == "lost"
     db.close()
+
+
+# -- publishing statuses to the site (git push of the status file) -----------------------
+
+def git(cwd, *args):
+    import subprocess
+    return subprocess.run(["git", "-C", str(cwd), *args], capture_output=True, text=True, check=True).stdout.strip()
+
+
+def make_repo(tmp_path):
+    """A checkout with data/lead_status.csv committed, tracking a bare 'origin' in the same tmp folder."""
+    remote = tmp_path / "origin.git"
+    git(tmp_path, "init", "-q", "--bare", str(remote))
+    repo = tmp_path / "checkout"
+    repo.mkdir()
+    git(repo, "init", "-q", "-b", "main")
+    git(repo, "config", "user.name", "Test Rep")
+    git(repo, "config", "user.email", "rep@example.com")
+    (repo / "data").mkdir()
+    (repo / "data" / "lead_status.csv").write_text(",".join(lead_status.CSV_COLUMNS) + "\n", encoding="utf-8")
+    (repo / "config.yaml").write_text("paths:\n  database: status.sqlite\n  lead_status: data/lead_status.csv\n", encoding="utf-8")
+    git(repo, "add", "-A")
+    git(repo, "commit", "-q", "-m", "init")
+    git(repo, "remote", "add", "origin", str(remote))
+    git(repo, "push", "-q", "-u", "origin", "main")
+    return repo, remote
+
+
+def test_push_status_file_commits_only_the_status_file(tmp_path):
+    repo, remote = make_repo(tmp_path)
+    csv_path = repo / "data" / "lead_status.csv"
+    (repo / "unrelated.txt").write_text("not for the status commit", encoding="utf-8")
+    git(repo, "add", "unrelated.txt")                                     # staged by someone else: must stay out of the commit
+    messages = []
+    assert lead_status.push_status_file(csv_path, "lead status: nothing changed", messages.append) is True
+    assert "already committed" in messages[-2] and "pushed" in messages[-1]
+    csv_path.write_text(",".join(lead_status.CSV_COLUMNS) + "\n" + ",".join([*KEY, "quoted", "", "pat", "2026-10-19"]) + "\n", encoding="utf-8")
+    assert lead_status.push_status_file(csv_path, "lead status: 12-3J14-26-B-0410 -> quoted", messages.append) is True
+    assert git(remote, "log", "-1", "--format=%s", "main") == "lead status: 12-3J14-26-B-0410 -> quoted"
+    assert git(remote, "show", "--stat", "--format=", "main").count("|") == 1          # one file in the commit
+    assert "unrelated.txt" not in git(remote, "ls-tree", "--name-only", "main")
+    assert "quoted" in git(remote, "show", "main:data/lead_status.csv")
+
+
+def test_push_status_file_outside_git_and_without_identity(tmp_path):
+    messages = []
+    plain = tmp_path / "plain" / "lead_status.csv"
+    plain.parent.mkdir()
+    plain.write_text("award_key,contract_no,status,note,rep,updated_at\n", encoding="utf-8")
+    assert lead_status.push_status_file(plain, "x", messages.append) is False and "not a git checkout" in messages[-1]
+    repo, _ = make_repo(tmp_path)
+    git(repo, "config", "--unset", "user.name")
+    git(repo, "config", "--unset", "user.email")
+    git(repo, "config", "user.useConfigOnly", "true")                     # no identity and no auto-detection from the login name
+    csv_path = repo / "data" / "lead_status.csv"
+    csv_path.write_text("award_key,contract_no,status,note,rep,updated_at\nA,B,lost,,,\n", encoding="utf-8")
+    env_backup = {k: __import__("os").environ.pop(k, None) for k in ("GIT_AUTHOR_NAME", "GIT_AUTHOR_EMAIL", "GIT_COMMITTER_NAME", "GIT_COMMITTER_EMAIL")}
+    __import__("os").environ["GIT_CONFIG_GLOBAL"] = str(tmp_path / "no-global-gitconfig")
+    try:
+        ok = lead_status.push_status_file(csv_path, "x", messages.append)
+    finally:
+        __import__("os").environ.pop("GIT_CONFIG_GLOBAL", None)
+        for k, v in env_backup.items():
+            if v is not None:
+                __import__("os").environ[k] = v
+    assert ok is False and "git commit failed" in messages[-1] and "git config user.name" in messages[-1]
+
+
+def test_cli_push_flag(tmp_path, capsys):
+    repo, remote = make_repo(tmp_path)
+    assert run_daily.main(["--config", str(repo / "config.yaml"), "status", *KEY, "contacted", "--rep", "pat", "--push"]) == 0
+    out = capsys.readouterr().out
+    assert "contacted" in out and "pushed lead_status.csv" in out
+    assert git(remote, "log", "-1", "--format=%s", "main") == f"lead status: {KEY[0]} {KEY[1]} -> contacted"
+    assert "contacted" in git(remote, "show", "main:data/lead_status.csv")
